@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytohn-tooling"
+version = "0.1.0"
+description = "The hypermodern Python project"
+authors = ["Kundan Pandit <kpandit15@gmail.com>"]
+homepage = "https://github.com/kpandit15/pytohn-tooling"
+repository = "https://github.com/kpandit15/pytohn-tooling"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
